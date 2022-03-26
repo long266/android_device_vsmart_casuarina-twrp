@@ -22,7 +22,7 @@ $(call inherit-product-if-exists, $(SRC_TARGET_DIR)/product/embedded.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-# Inherit from violet device
+# Inherit from casuarina device
 $(call inherit-product, device/vsmart/casuarina/device.mk)
 
 # Inherit some common Omni stuff.
