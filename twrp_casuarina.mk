@@ -47,11 +47,6 @@ PRODUCT_BRAND := Vsmart
 PRODUCT_MODEL := Vsmart Joy 3
 PRODUCT_MANUFACTURER := Vsmart
 
-## wrappedkey
-#PRODUCT_PROPERTY_OVERRIDES += \
-#    fbe.data.wrappedkey=true
-#
-
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.secure=1 \
 	ro.adb.secure=0 \
